@@ -121,8 +121,6 @@ systemctl preset --global udiskie
 systemctl enable brew-setup.service
 systemctl enable flatpak-preinstall.service
 
-git clone "https://github.com/noctalia-dev/noctalia-shell.git" /usr/share/zirconium/noctalia-shell
-cp /usr/share/zirconium/skel/Pictures/Wallpapers/mountains.png /usr/share/zirconium/noctalia-shell/Assets/Wallpaper/noctalia.png
 cp -rf /usr/share/zirconium/skel/* /etc/skel
 git clone "https://github.com/zirconium-dev/zdots.git" /usr/share/zirconium/zdots
 install -d /etc/niri/
