@@ -11,6 +11,10 @@ Zirconium is built primarily for container-focused development and day-to-day us
 ## How do I use this?
 The best way to install Zirconium is to download our ISOs! Pick your flavor:
 
+### NOTICE!
+
+ISOs are currently borked, you need to run the rebasing instructions after installing or else YOU WILL NOT GET UPDATES!
+
 - AMD64
 - - **[AMD/Intel GPUs](https://isos.zirconium.gay/zirconium-isos/zirconium-amd64.iso)** ([Checksum](https://isos.zirconium.gay/zirconium-isos/zirconium-amd64.iso-CHECKSUM))
 - - **[NVIDIA GPUs (GTX 16xx and RTX series)](https://isos.zirconium.gay/zirconium-isos/zirconium-nvidia-amd64.iso)** ([Checksum](https://isos.zirconium.gay/zirconium-isos/zirconium-nvidia-amd64.iso-CHECKSUM))
