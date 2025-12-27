@@ -25,7 +25,9 @@ dnf -y --enablerepo copr:copr.fedorainfracloud.org:avengemedia:danklinux install
 
 dnf -y copr enable shadowblip/InputPlumber
 dnf -y copr disable shadowblip/InputPlumber
-dnf -y --enablerepo copr:copr.fedorainfracloud.org:shadowblip:InputPlumber install inputplumber
+dnf -y --enablerepo copr:copr.fedorainfracloud.org:shadowblip:InputPlumber \
+    install --setopt=install_weak_deps=False \
+    inputplumber
 
 dnf -y copr enable avengemedia/dms-git
 dnf -y copr disable avengemedia/dms-git
